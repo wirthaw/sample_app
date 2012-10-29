@@ -10,6 +10,7 @@ describe "Static pages" do
     it { should have_selector('h1',    :text => 'Sample App') }
     it { should have_selector('title', :text => full_title('')) }
     it { should have_selector 'title', :text => '| Home' }
+
   end
 
   describe "Help page" do
